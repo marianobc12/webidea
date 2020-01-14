@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+
+/* PALETA DE COLORES 
+#ffb200
+#ffa441
+#ff9a62
+#fc967d
+#e99691
+
+*/
+
+
+
+
+/* IMPORTACION DE FUENTE */
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat-Regular.ttf");
+  }
+
+/* IMPORTACION DE ANIMACIONES */
+@import "animate.css";
+
+/* ESTILO GENERAL DE LA PAGINA */  
+body{
+    font-family: "Montserrat";
+}
+
+
+
+/* ESTILO DEL MENU DE LA PAGINA */
+.navbar{
+    background: white;
+    padding-top: 0px;
+    padding-bottom:0px; 
+    padding-left: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.15);
+}
+
+.navbar .logo{
+    animation: fadeIn 2s forwards;
+    margin-left: 20px;
+}
+
+.navbar .navbar-nav li>a{
+
+    padding: 20px;
+}
+.navbar .navbar-nav li>a>i{
+    color: #ffb200;
+}
+
+.navbar .navbar-nav .nav-item>a:hover{
+    background-image: linear-gradient(to right top, #ffb200, #ffa441, #ff9a62, #fc967d, #e99691);
+    color: white;
+    transition-duration: 0.5s;
+}
+.navbar .navbar-nav .nav-item>a:hover>i{
+    color: white;
+}
+
+
+
+/* CONTENEDOR INICIAL DE INDEX */
+.contenedor-inicio{
+    background-image: linear-gradient(to right top, #ffb200, #ffa441, #ff9a62, #fc967d, #e99691);
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.contenedor-inicio .titulo{
+    font-family: 'Russo One', sans-serif;
+    color:white;
+    font-size:60px;
+}
+.contenedor-inicio .subtitulo{
+    font-family: "Montserrat";
+    color:white;
+    font-size:25px;
+}
+.contenedor-inicio .img-desarrollo{
+    height: 200px;
+    display:block;
+    margin: auto;
+}
+.contenedor-info h2{
+    font-family: 'Russo One', sans-serif;
+}
+.contenedor-info p{
+    text-align:center;
+}
+.contenedor-presupuesto .btn-presupuesto{
+    display:block;
+    margin:auto;
+    background: white;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.contenedor-presupuesto a{
+    text-decoration: none;
+}
+.contenedor-presupuesto .btn-presupuesto:hover{
+    animation: rubberBand 1s forwards;
+}
+
+.contenedor-presupuesto .btn-presupuesto .fa-telegram-plane{
+    color: #ffa441;
+}
+
+
+/* CONTENEDOR BENEFICIOS */
+.contenedor-beneficios{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.contenedor-beneficios .titulo{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 2px #ffa441;
+    color: white;
+}
+.contenedor-beneficios .subtitulo{
+    font-size: 20px;
+}
+.beneficio img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+.beneficio h1{
+    font-size: 30px;
+}
+
+/* CONTENEDOR TRABAJOS */
+.contenedor-trabajos{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.contenedor-trabajos .titulo{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 2px #ffa441;
+    color: white;
+}
+.contenedor-trabajos .trabajos>div>a>img{
+    height: 300px;
+    filter: brightness(80%);
+}
+.contenedor-trabajos .trabajos>div>img:hover{
+    filter: brightness(100%);
+    cursor: pointer;
+    animation: pulse 1s forwards;
+}
+
+/*SERVICIOS */
+.contenedor-servicios{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.contenedor-servicios .titulo{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 2px #ffa441;
+    color: white;
+}
+.contenedor-servicios .fa-layer-group{
+    color:#ffa441;
+}
+.contenedor-servicios .fa-laptop-code{
+    color: #ff9a62;
+}
+.contenedor-servicios .fa-handshake{
+    color: #fc967d;
+    
+}
+.contenedor-servicios .fa-globe{
+    color: #ffa441;
+}
+.contenedor-servicios .fa-window-maximize{
+    color: #ff9a62;
+}
+
+/* CONTACTO */
+.contenedor-contacto{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.contenedor-contacto .btn-enviar{
+    background: #ffa441;
+    color:white;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.15);
+}
+
+.contenedor-contacto .form-contacto>div>input:focus{
+    border: 1px solid #ff9a62;
+    box-shadow:none;
+    outline: none; 
+}
+.contenedor-contacto .form-contacto>div>textarea:focus{
+    border: 1px solid #ff9a62;
+    box-shadow:none;
+    outline: none; 
+}
+.contenedor-contacto i{
+    color: #ffa441;
+}
+.contenedor-contacto .fa-telegram-plane{
+    color: white;
+}
+.contenedor-contacto .btn-enviar:hover{
+    background: transparent;
+    border: 1px solid #ff9a62;
+    color: black;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.30);
+}
+.contenedor-contacto .btn-enviar:hover  .fa-telegram-plane{
+    color:#ff9a62;
+}
+
+
+/* MODAL ENVIAR */
+.modal-envio .modal-header{
+    border:none;
+}
+.modal-envio i{
+    color: #ffa441;
+}
+
+
+
+
+
+/* PIE DE PAGINA */
+footer{
+    background-image: linear-gradient(to right top, #ffb200, #ffa441, #ff9a62, #fc967d, #e99691);
+    padding: 40px;
+}
+footer i{
+    color: white;
+}
+footer .redes a{
+    display: inline-block;
+}

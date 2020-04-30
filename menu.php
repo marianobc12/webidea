@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index"><i class="fas fa-home fa-lg"></i> Inicio</a>
+                <a class="nav-link" href="index"><img src="img/home-white.png" style="vertical-align:sub;" height="25" alt=""> Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="servicios"><i class="far fa-building fa-lg"></i> Nosotros</a>

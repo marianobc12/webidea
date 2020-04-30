@@ -23,27 +23,29 @@
     </script>
 </head>
 <body>
-    <?php
-        include 'menu.php';
-    ?>
     <div class="container-fluid contenedor-inicio">
+        <div class="row">
+        <?php
+            include 'menu.php';
+        ?>
+        </div>
         <div class="row">
             <div class="col-12">
                 <h1 class="text-center mt-5 titulo animated zoomIn">¡WEBIDEA , desarrolla tu página!</h1>
-                <h2 class="text-center mb-5 subtitulo animated fadeIn slow">Nos encargamos de hacer soluciones a medidas para cada uno de nuestros clientes.</h2>
+                <h2 class="text-center mb-5 subtitulo animated fadeIn slow delay-2s mont-200">Nos encargamos de hacer soluciones a medidas para cada uno de nuestros clientes.</h2>
                 <div class="row">
                     <div class="col-md-4 offset-md-2 animated fadeInLeft">
                         <img class="img-fluid img-desarrollo" src="img/desarrollo-web.png">
                     </div>
                     <div class="col-md-4 contenedor-info animated fadeInRight">
                         <h2 class="text-center text-white mt-4">¡Empezá ya!</h2>
-                        <p class="mt-3 text-white">Si estas empezando un empredimiento o tenes tu negocio, y necesitas una pagina web o un sistema de administración , contactanos para poder hacer un desarrollo a medida.</p>
+                        <p class="mt-3 text-white mont-200">Si estas empezando un empredimiento o tenes tu negocio, y necesitas una pagina web o un sistema de administración , contactanos para poder hacer un desarrollo a medida.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 contenedor-presupuesto animated fadeInUp delay-1s ">
-                        <h2 class="text-center text-white mt-5">¡Presupuestá tu web!</h2>
-                        <a href="contacto"><button class="btn btn-lg mt-5 mb-5 btn-presupuesto">Contactar <i class="fab fa-telegram-plane fa-lg"></i></button></a>
+                        <h2 class="text-center text-white mt-5 ruso">¡Presupuestá tu web!</h2>
+                        <a href="contacto"><button class="btn btn-lg mt-3 mb-5 btn-presupuesto">Contactar <i class="fab fa-telegram-plane fa-lg"></i></button></a>
                     </div>
                    
                 </div>
@@ -57,6 +59,7 @@
                 <h2 class="text-center subtitulo">Trabajamos en equipo para darle a nuestros clientes una forma eficiente de solucionar su problema.</h2>
             </div>
         </div>
+        <img src="img/cohete-mp4 Comp- 1.gif" alt="">
         <div class="row">
             <div class="col-md-4 beneficio mt-5 mb-3 wow animated  fadeIn slow" data-wow-delay="0s">
                     <img class="img-fluid" src="img/responsive.png" alt="">
@@ -99,22 +102,8 @@
             </div>
         </div>
     </div>
-    <footer class="pie-pagina">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 redes text-center wow animated fadeIn slow">
-                    <h1 class="text-white">¡Seguinos  y demostranos tu apoyo!</h1>
-                    <a href="https://www.facebook.com/webideainfo/" target="_blank" title="Ir a nuestro Facebook" class="ml-2"><i class="fab fa-facebook fa-3x"></i></a>
-                    <a href="https://www.instagram.com/webideainfo/" target="_blank" title="Ir a nuestro Instragram" class="ml-2"><i class="fab fa-instagram fa-3x"></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center mt-5 text-white wow animated fadeIn slow">© Copyright <?php echo getYear(); ?> WEBIDEA -
-                    Diseño y Desarrollo Web La Plata - Buenos Aires - Argentina.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php
+        include 'pie-pagina.php';
+    ?>
 </body>
 </html>

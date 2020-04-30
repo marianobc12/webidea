@@ -1,6 +1,6 @@
 <nav class="navbar  navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
-          <img class="logo" src="img/logo.png" width="150" height="40" class="d-inline-block align-top" alt="WEBIDEA">
+          <img class="logo" src="img/logo-white.png" width="150" height="40" class="d-inline-block align-top" alt="WEBIDEA">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

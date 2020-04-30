@@ -59,7 +59,7 @@
                 <h2 class="text-center subtitulo">Trabajamos en equipo para darle a nuestros clientes una forma eficiente de solucionar su problema.</h2>
             </div>
         </div>
-        <img src="img/cohete-mp4 Comp- 1.gif" alt="">
+        <img src="img/gifwebidea.gif" alt="">
         <div class="row">
             <div class="col-md-4 beneficio mt-5 mb-3 wow animated  fadeIn slow" data-wow-delay="0s">
                     <img class="img-fluid" src="img/responsive.png" alt="">

@@ -54,56 +54,134 @@
     </div> 
     <div class="container contenedor-beneficios">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 wow animated fadeInUp slow">
                 <h1 class="text-center mt-5 titulo">Te ofrecemos una solución</h1>
-                <h2 class="text-center subtitulo">Trabajamos en equipo para darle a nuestros clientes una forma eficiente de solucionar su problema.</h2>
+                <h2 class="text-center subtitulo mont-200">Trabajamos en equipo para darle a nuestros clientes una forma eficiente de solucionar su problema.</h2>
             </div>
         </div>
-        <img src="img/gifwebidea.gif" alt="">
         <div class="row">
             <div class="col-md-4 beneficio mt-5 mb-3 wow animated  fadeIn slow" data-wow-delay="0s">
                     <img class="img-fluid" src="img/responsive.png" alt="">
-                    <h1 class="text-center mt-3">Diseño Adaptable</h1>
-                    <p class="text-center">Todos nuestros desarrollos son multiplataforma , por lo que podras utilizarlo desde cualquier dispositivo (PC,Notebooks,Tablets,Celulares)</p>
+                    <h1 class="text-center mt-3 mont-400">Diseño Adaptable</h1>
+                    <p class="text-center mont-300">Todos nuestros desarrollos son multiplataforma , por lo que podras utilizarlo desde cualquier dispositivo (PC,Notebooks,Tablets,Celulares)</p>
             </div>
             <div class="col-md-4 beneficio mt-5 mb-3 wow animated fadeIn  slow" data-wow-delay="0.7s">
                     <img class="img-fluid" src="img/tecnologias.png" alt="">
-                    <h1 class="text-center mt-3">Desarrollo</h1>
-                    <p class="text-center">Utilizamos todo tipo de tecnologias , HTML5 , CSS3 , Javascript , PHP , Bootstrap , JQuery , MySQL entre otras...</p>
+                    <h1 class="text-center mt-3 mont-400">Desarrollo</h1>
+                    <p class="text-center mont-300">Utilizamos todo tipo de tecnologias , HTML5 , CSS3 , Javascript , PHP , Bootstrap , JQuery , MySQL entre otras...</p>
             </div>
             <div class="col-md-4 beneficio mt-5 mb-3 wow animated fadeIn   slow" data-wow-delay="1.4s">
                     <img class="img-fluid" src="img/servidor.png" alt="">
-                    <h1 class="text-center mt-3">Alojamiento</h1>
-                    <p class="text-center">Tu página estará segura y online las 24hs , poseemos un hosting confiable que nos ofrece garantizar el servicio de alojamiento web.</p>
+                    <h1 class="text-center mt-3 mont-400">Alojamiento</h1>
+                    <p class="text-center mont-300">Tu página estará segura y online las 24hs , poseemos un hosting confiable que nos ofrece garantizar el servicio de alojamiento web.</p>
             </div>
         </div>
     </div>
-    <div class="container contenedor-trabajos">
+    <div class="container-fluid contenedor-trabajos">
         <div class="row mb-5">
-            <div class="col-md-12">
-                <h1 class="text-center mt-5 titulo">Algunos de nuestros trabajos</h1>
+            <div class="col-md-12 wow animated fadeInUp slow">
+                <h1 class="text-center mt-2 mb-4 titulo">Algunos de nuestros trabajos</h1>
             </div>
         </div>
-        <div class="row trabajos mb-5">
-            <div class="col-lg-6 wow zoomIn " data-wow-duration="1.5s" onclick="location.href='img/trabajo1.png'">
-                <img src="img/trabajo1.png" class="img-fluid img-thumbnail" alt="">
+        <div class="row trabajos" style="margin:0px;">
+            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" onclick="location.href='img/trabajo1.png'">
+                <img src="img/trabajo1.png" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-6 wow zoomIn " data-wow-duration="1.5s" data-wow-delay="0.5s" onclick="location.href='img/trabajo2.png'">
-                <img src="img/trabajo2.png" class="img-fluid img-thumbnail" alt="">
+            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="0.5s" onclick="location.href='img/trabajo2.png'">
+                <img src="img/trabajo2.png" class="img-fluid" alt="">
             </div>
-            
+            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="1s"   onclick="location.href='img/trabajo3.png'">
+                <img src="img/trabajo3.png" class="img-fluid" alt="">
+            </div>
         </div>
-        <div class="row trabajos">
-            <div class="col-lg-6 wow zoomIn " data-wow-duration="1.5s" data-wow-delay="1s"   onclick="location.href='img/trabajo3.png'">
-                <img src="img/trabajo3.png" class="img-fluid img-thumbnail" alt="">
+        <div class="row trabajos" style="margin:0px;">
+            <div class="col-lg-4 wow zoomIn " data-wow-duration="1.5s" onclick="location.href='img/trabajo1.png'">
+                <img src="img/trabajo1.png" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-6 wow zoomIn " data-wow-duration="1.5s" data-wow-delay="1.5s"  onclick="location.href='img/trabajo4.png'">
-                <img src="img/trabajo4.png" class="img-fluid img-thumbnail" alt="">
+            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="0.5s" onclick="location.href='img/trabajo2.png'">
+                <img src="img/trabajo2.png" class="img-fluid" alt="">
             </div>
+            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="1s"   onclick="location.href='img/trabajo3.png'">
+                <img src="img/trabajo3.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row trabajos" style="margin:0px;">
+            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" onclick="location.href='img/trabajo1.png'">
+                <img src="img/trabajo1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="0.5s" onclick="location.href='img/trabajo2.png'">
+                <img src="img/trabajo2.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="1s"   onclick="location.href='img/trabajo3.png'">
+                <img src="img/trabajo3.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-md-4">
+    		    <div class="card profile-card-1">
+                    <div class="card-content">
+                        <img src="https://scontent.faep8-1.fna.fbcdn.net/v/t1.0-9/32231220_10214078213183284_2087415498118529024_n.jpg?_nc_cat=105&_nc_sid=7aed08&_nc_ohc=Qi2sqYTluhAAX-C6102&_nc_ht=scontent.faep8-1.fna&oh=6fc7ba58adf31bb32e8a8106b781d164&oe=5ECFE30C"  alt="profile-image" class="profile"/>
+                        <h2 class="mt-2">Mariano Flores<small>Es genial , la verdad que invertiré todos mis ahorros en trading , es una forma de ganar mucho dinero y no ser explotado como programado. Lo recomiendo!</small></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+    		    <div class="card profile-card-1">
+                    <div class="card-content">
+                        <img src="http://conexion-sol-tierra.com/img/fotoperfil.jpg"  alt="profile-image" class="profile"/>
+                        <h2 class="mt-2">Julio Gianibelli<small>EngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJFJSJ</small></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+    		    <div class="card profile-card-1">
+                    <div class="card-content">
+                        <img src="https://scontent.faep8-1.fna.fbcdn.net/v/t31.0-8/p720x720/741110_103233436519390_1062286652_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=2P6k5qGgVpsAX9xBGN3&_nc_ht=scontent.faep8-1.fna&_nc_tp=6&oh=275fbc3286ef9846d27db34b68a67672&oe=5ECF29E2"  alt="profile-image" class="profile"/>
+                        <h2 class="mt-2">Rodrigo Garcia<small>Han desarrollado mi página web , en la cual pude compartir mis guias y como podes lograr dinero desde casa , haciendo trading.</small></h2>
+                    </div>
+                </div>
+    		</div>
         </div>
     </div>
     <?php
         include 'pie-pagina.php';
     ?>
+
+    <script>
+       $(document).ready(function(){       
+        var scroll_start = 0;
+        var startchange = $('.titulo');
+        var offset = startchange.offset();
+            if (startchange.length){
+        $(document).scroll(function() { 
+            scroll_start = $(this).scrollTop();
+            if(scroll_start > offset.top-50) {
+                $(".navbar").css('background-color', 'white');
+                $(".navbar").css('transition', '1s');
+                $(".nav-link").css("color", "gray");
+                $("#logoimg").attr("src", "img/logo.png");
+                $("#homeimg").attr("src", "img/home-orange.png");
+                $("#nosotrosimg").attr("src", "img/nosotros-orange.png");
+                $("#serviciosimg").attr("src", "img/servicio-orange.png");
+                $("#portfolioimg").attr("src", "img/portfolio-orange.png");
+                $("#contactoimg").attr("src", "img/contacto-orange.png");
+                $('.navbar').css('box-shadow', '0px 2px 5px 0px rgba(0,0,0,0.47)');
+            } else {
+                $('.navbar').css('background-color', 'transparent');
+                $("#logoimg").attr("src", "img/logo-white.png");
+                $(".nav-link").css("color", "white");
+                $("#homeimg").attr("src", "img/home-white.png");
+                $("#nosotrosimg").attr("src", "img/nosotros-white.png");
+                $("#serviciosimg").attr("src", "img/servicio-white.png");
+                $("#portfolioimg").attr("src", "img/portfolio-white.png");
+                $("#contactoimg").attr("src", "img/contacto-white.png");
+                $('.navbar').css('box-shadow', 'none');
+            }
+        });
+            }
+        });
+    </script>
 </body>
 </html>

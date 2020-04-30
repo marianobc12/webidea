@@ -38,6 +38,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
 }
+.mont-400{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.mont-300{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
 
 
 
@@ -49,6 +57,7 @@ body{
     padding-left: 0px;
     padding-bottom: 0px;
     width: 100%;
+    position: fixed;
     z-index: 1;
    /* box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.15);*/
 }
@@ -75,7 +84,7 @@ body{
     color: white;
     transition-duration: 0.5s;*/
     color: white;
-    text-shadow: 0.5px 0.5px 0.5px #000000;
+    animation: jello 1s forwards;
 }
 .navbar .navbar-nav .nav-item>a:hover>i{
     color: white;
@@ -92,6 +101,7 @@ body{
     font-family: 'Audiowide', cursive;
     color:white;
     font-size:60px;
+    padding-top: 50px;
 }
 .contenedor-inicio .subtitulo{
     font-family: "Montserrat";
@@ -130,7 +140,7 @@ body{
 /* CONTENEDOR BENEFICIOS */
 .contenedor-beneficios{
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 .contenedor-beneficios .titulo{
     font-family: 'Russo One', sans-serif;
@@ -268,3 +278,43 @@ footer .redes a:hover{
 footer .redes a>i:hover{
     text-shadow: 0.5px 0.5px 0.5px #000000;
 }
+
+/* OPINIONES */
+/*Profile Card 1*/
+.profile-card-1 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    overflow: hidden;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    height: 250px;
+    border:none;
+    background-image: linear-gradient(to right top, #ffb200, #ffa441, #ff9a62, #fc967d, #e99691);
+  }
+
+  .profile-card-1 .card-content {
+    width: 100%;
+    padding: 15px 25px;
+  }
+  .profile-card-1 .profile {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 1);
+  }
+  .profile-card-1 h2 {
+    margin: 0 0 5px;
+    font-weight: 600;
+    font-size:25px;
+  }
+  .profile-card-1 h2 small {
+    display: block;
+    font-size: 15px;
+    margin-top:10px;
+  }
+
+  

@@ -32,16 +32,16 @@
                 <h1 class="text-center mt-5 titulo animated zoomIn">¡WEBIDEA , desarrolla tu página!</h1>
                 <h2 class="text-center mb-5 subtitulo animated fadeIn slow">Nos encargamos de hacer soluciones a medidas para cada uno de nuestros clientes.</h2>
                 <div class="row">
-                    <div class="col-md-4 offset-md-2 animated fadeIn slow">
+                    <div class="col-md-4 offset-md-2 animated fadeInLeft">
                         <img class="img-fluid img-desarrollo" src="img/desarrollo-web.png">
                     </div>
-                    <div class="col-md-4 contenedor-info animated fadeIn slow">
+                    <div class="col-md-4 contenedor-info animated fadeInRight">
                         <h2 class="text-center text-white mt-4">¡Empezá ya!</h2>
                         <p class="mt-3 text-white">Si estas empezando un empredimiento o tenes tu negocio, y necesitas una pagina web o un sistema de administración , contactanos para poder hacer un desarrollo a medida.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 contenedor-presupuesto animated fadeIn slow ">
+                    <div class="col-md-12 contenedor-presupuesto animated fadeInUp delay-1s ">
                         <h2 class="text-center text-white mt-5">¡Presupuestá tu web!</h2>
                         <a href="contacto"><button class="btn btn-lg mt-5 mb-5 btn-presupuesto">Contactar <i class="fab fa-telegram-plane fa-lg"></i></button></a>
                     </div>

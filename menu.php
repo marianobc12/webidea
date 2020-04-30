@@ -11,7 +11,13 @@
                 <a class="nav-link" href="index"><i class="fas fa-home fa-lg"></i> Inicio</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="servicios"><i class="far fa-building fa-lg"></i> Nosotros</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="servicios"><i class="fas fa-laptop fa-lg"></i> Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios"><i class="far fa-window-restore fa-lg"></i> Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contacto"><i class="fab fa-telegram-plane fa-lg"></i> Contacto</a>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 
 /* PALETA DE COLORES 
@@ -73,7 +74,7 @@ body{
     padding-bottom: 40px;
 }
 .contenedor-inicio .titulo{
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Audiowide', cursive;
     color:white;
     font-size:60px;
 }

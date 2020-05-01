@@ -92,6 +92,7 @@ body{
 
 
 
+
 /* CONTENEDOR INICIAL DE INDEX */
 .contenedor-inicio{
     background-image: linear-gradient(to right top, #ffb200, #ffa441, #ff9a62, #fc967d, #e99691);
@@ -217,17 +218,41 @@ body{
 .contenedor-contacto{
     padding-top: 70px;
     padding-bottom: 40px;
+    background-image: url('../img/form-contacto2.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.contenedor-contacto .titulo{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 1px #ffa441;
+    color: white;
+    text-align: center;
+}
+.contenedor-contacto .subtitulo{
+    text-align: center;
 }
 .contenedor-contacto .btn-enviar{
     background: #ffa441;
     color:white;
     box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.15);
 }
-
-.contenedor-contacto .form-contacto>div>input:focus{
-    border: 1px solid #ff9a62;
+.contenedor-contacto .form-contacto{
+    padding: 20px 60px;
+}
+.contenedor-contacto .form-contacto input{
+    border-radius: 0px;
+    border:none;
+    border-bottom:1px solid lightgray;
+}
+.contenedor-contacto .form-contacto input:focus{
+    border-bottom: 1px solid #ff9a62;
     box-shadow:none;
     outline: none; 
+}
+.contenedor-contacto .form-contacto>div>textarea{
+    height: 150px;
+    border-radius: 0px;
 }
 .contenedor-contacto .form-contacto>div>textarea:focus{
     border: 1px solid #ff9a62;
@@ -337,5 +362,6 @@ footer .redes a>i:hover{
       font-size: 50px;
   }
 
+  
 
   

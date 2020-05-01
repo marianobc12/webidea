@@ -81,5 +81,17 @@
             </div>
         </div>
     </footer>
+    <script>
+     $(".navbar").css('background-color', 'white');
+     $(".navbar").css('transition', '1s');
+     $(".nav-link").css("color", "gray");
+     $("#logoimg").attr("src", "img/logo.png");
+     $("#homeimg").attr("src", "img/home-orange.png");
+     $("#nosotrosimg").attr("src", "img/nosotros-orange.png");
+     $("#serviciosimg").attr("src", "img/servicio-orange.png");
+     $("#portfolioimg").attr("src", "img/portfolio-orange.png");
+     $("#contactoimg").attr("src", "img/contacto-orange.png");
+     $('.navbar').css('box-shadow', '0px 2px 5px 0px rgba(0,0,0,0.47)');
+  </script>
 </body>
 </html>

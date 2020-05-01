@@ -120,26 +120,26 @@
     <div class="container-fluid">
         <div class="row mb-5">
             <div class="col-md-4">
-    		    <div class="card profile-card-1">
+    		    <div class="card profile-card-1 wow animated flipInX">
                     <div class="card-content">
                         <img src="https://scontent.faep8-1.fna.fbcdn.net/v/t1.0-9/32231220_10214078213183284_2087415498118529024_n.jpg?_nc_cat=105&_nc_sid=7aed08&_nc_ohc=Qi2sqYTluhAAX-C6102&_nc_ht=scontent.faep8-1.fna&oh=6fc7ba58adf31bb32e8a8106b781d164&oe=5ECFE30C"  alt="profile-image" class="profile"/>
-                        <h2 class="mt-2">Mariano Flores<small>Es genial , la verdad que invertiré todos mis ahorros en trading , es una forma de ganar mucho dinero y no ser explotado como programado. Lo recomiendo!</small></h2>
+                        <h2 class="mt-2">FLORES MARIANO<small>"Es genial , la verdad que invertiré todos mis ahorros en trading , es una forma de ganar mucho dinero y no ser explotado como programado. Lo recomiendo!"</small></h2>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-    		    <div class="card profile-card-1">
+    		    <div class="card profile-card-1 wow animated flipInY" data-wow-delay="1s">
                     <div class="card-content">
                         <img src="http://conexion-sol-tierra.com/img/fotoperfil.jpg"  alt="profile-image" class="profile"/>
-                        <h2 class="mt-2">Julio Gianibelli<small>EngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJFJSJ</small></h2>
+                        <h2 class="mt-2">GIANIBELLI JULIO<small>"EngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJngineerJFDJSJFJSFJSJFJSJ"</small></h2>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-    		    <div class="card profile-card-1">
+    		    <div class="card profile-card-1 wow animated flipInX" data-wow-delay="2s">
                     <div class="card-content">
                         <img src="https://scontent.faep8-1.fna.fbcdn.net/v/t31.0-8/p720x720/741110_103233436519390_1062286652_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=2P6k5qGgVpsAX9xBGN3&_nc_ht=scontent.faep8-1.fna&_nc_tp=6&oh=275fbc3286ef9846d27db34b68a67672&oe=5ECF29E2"  alt="profile-image" class="profile"/>
-                        <h2 class="mt-2">Rodrigo Garcia<small>Han desarrollado mi página web , en la cual pude compartir mis guias y como podes lograr dinero desde casa , haciendo trading.</small></h2>
+                        <h2 class="mt-2">GARCÍA RODRIGO<small>"Han desarrollado mi página web , en la cual pude compartir mis guias y como podes lograr dinero desde casa , haciendo trading"</small></h2>
                     </div>
                 </div>
     		</div>

@@ -143,9 +143,9 @@ body{
     padding-bottom: 20px;
 }
 .contenedor-beneficios .titulo{
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     font-size: 50px;
-    -webkit-text-stroke: 2px #ffa441;
+    -webkit-text-stroke: 1px #ffa441;
     color: white;
 }
 .contenedor-beneficios .subtitulo{
@@ -156,9 +156,13 @@ body{
     margin: auto;
     width: 150px;
     height: 150px;
+
 }
 .beneficio h1{
+    background:#ffb200;
     font-size: 30px;
+    color: white;
+   
 }
 
 /* CONTENEDOR TRABAJOS */
@@ -167,9 +171,9 @@ body{
     padding-bottom: 100px;
 }
 .contenedor-trabajos .titulo{
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     font-size: 50px;
-    -webkit-text-stroke: 2px #ffa441;
+    -webkit-text-stroke: 1px #fc967d;
     color: white;
 }
 .contenedor-trabajos .trabajos>div>a>img{
@@ -190,7 +194,7 @@ body{
 .contenedor-servicios .titulo{
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
-    -webkit-text-stroke: 2px #ffa441;
+    -webkit-text-stroke: 1px #ffa441;
     color: white;
 }
 .contenedor-servicios .fa-layer-group{
@@ -201,7 +205,6 @@ body{
 }
 .contenedor-servicios .fa-handshake{
     color: #fc967d;
-    
 }
 .contenedor-servicios .fa-globe{
     color: #ffa441;
@@ -287,7 +290,7 @@ footer .redes a>i:hover{
     width: 100%;
     color: #ffffff;
     text-align: center;
-    height: 300px;
+    height: 350px;
     border:none;
     padding: 20px 5px;
     background-image: linear-gradient(to right top, #ffb200, #ffa441, #ff9a62, #fc967d, #e99691);
@@ -324,5 +327,15 @@ footer .redes a>i:hover{
     margin-top:10px;
     text-shadow: none;
   }
+
+
+  .cont-opiniones .titulo{
+      margin-bottom: 100px;
+      font-family: 'Audiowide', sans-serif;
+      -webkit-text-stroke: 1px #ffa441;
+      color: white;
+      font-size: 50px;
+  }
+
 
   

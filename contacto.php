@@ -62,9 +62,6 @@
         </div>
       </div>
     </div>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aviso-contacto">
-  Launch demo modal
-</button>
     <footer class="pie-pagina">
         <div class="container">
             <div class="row">

@@ -221,24 +221,24 @@ body{
 .contenedor-contacto{
     padding-top: 70px;
     padding-bottom: 40px;
-
-}
-.contenedor-imagen{
-    background-image: url('../img/webideacontacto.png');
-    background-size: 60% auto;
+    background-image: url('../img/webideacontactooscura.png');
     background-repeat: no-repeat;
-    z-index:0;
-    
+    background-size: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.contenedor-contacto .row{
+    margin:0px;
 }
 .contenedor-contacto .titulo{
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
-    -webkit-text-stroke: 1px #ffa441;
     color: white;
     text-align: center;
 }
 .contenedor-contacto .subtitulo{
     text-align: center;
+    color: white;
 }
 .contenedor-contacto .btn-enviar{
     background: #ffa441;
@@ -248,22 +248,32 @@ body{
 .contenedor-contacto .form-contacto{
     padding: 20px 60px;
 }
+.contenedor-contacto .form-contacto label{
+    color:white;
+}
 .contenedor-contacto .form-contacto input{
     border-radius: 0px;
     border:none;
     border-bottom:1px solid lightgray;
+    background: transparent;
+    color: white;
 }
 .contenedor-contacto .form-contacto input:focus{
     border-bottom: 1px solid #ff9a62;
+    background: rgba(255, 255, 255, 0.9);
+    color: gray;
     box-shadow:none;
     outline: none; 
 }
-.contenedor-contacto .form-contacto>div>textarea{
+.contenedor-contacto .form-contacto textarea{
     height: 150px;
     border-radius: 0px;
+    background: transparent;
+    color: gray;
 }
-.contenedor-contacto .form-contacto>div>textarea:focus{
+.contenedor-contacto .form-contacto textarea:focus{
     border: 1px solid #ff9a62;
+    background: rgba(255, 255, 255, 0.9);
     box-shadow:none;
     outline: none; 
 }

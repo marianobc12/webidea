@@ -30,17 +30,12 @@
       include 'menu.php';
     ?>
     <div class="container-fluid contenedor-contacto">
-      <div class="row" style="position:relative;z-index:0;">
-        <div class="col-12 animated fadeInRight" style="padding:0px;">
-          <img id="contenedor-imagen" src="img/webideacontacto.png" style="float:right;">
-          </div>
-        </div>
-      <div class="row" style="position:absolute; z-index:10; top:92px;margin-left:-75px;">
-        <div class="col-8 animated fadeIn slower" style="margin-left:-20px;">
+      <div class="row">
+        <div class="col-8 animated fadeIn slower">
           <h1 class="mt-5 titulo">¿Te interesa nuestros servicios?</h1>
           <h2 class="mont-200 subtitulo">Consultános y te enviamos un presupuesto</h2>
         </div>
-        <div class="col-md-8 animated fadeInLeft" style="margin-left:40px;">
+        <div class="col-md-8 animated fadeInLeft">
           <form  method="POST" id="form-cont" class="form-contacto" onsubmit="return enviar()">
             <div class="row">
               <div class="col-5">
@@ -51,45 +46,31 @@
               <label for="email">E-mail</label>
               <input type="email" class="form-control" name="email" id="email" aria-label="Username" aria-describedby="basic-addon1" required="">
               </div>
-              </div>  
+            </div>  
             <br>
             <div class="row">
               <div class="col-10">
-              <label for="telefono">Teléfono</label>
-              <input type="text" class="form-control" name="telefono" id="telefono"  aria-label="Username" aria-describedby="basic-addon1" required="">
+                <label for="telefono">Teléfono</label>
+                <input type="text" class="form-control" name="telefono" id="telefono"  aria-label="Username" aria-describedby="basic-addon1" required="">
               </div>
             </div>
             <br>
             <div class="row">
-            <div class="col-10">
-            <div class="input-group mb-3 mt-4">
-              <textarea name="consulta" placeholder="Escribe tu mensaje"  class="form-control" id="consulta" cols="30" rows="10" required=""></textarea>
-            </div>
-            <button type="submit" class="btn btn-lg btn-enviar">Enviar <i class="fab fa-telegram-plane"></i></button>
-            <img src="img/loading.gif" style="display:none;" height="50" alt="">
-            </div>
+              <div class="col-10">
+              <div class="input-group mb-3 mt-4">
+                <textarea name="consulta" placeholder="Escribe tu mensaje"  class="form-control" id="consulta" cols="30" rows="10" required=""></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-enviar">Enviar <i class="fab fa-telegram-plane"></i></button>
+              <img src="img/loading.gif" style="display:none;" height="50" alt="">
+              </div>
             </div>
           </form>
         </div>
       </div>
     </div>
-    <footer class="pie-pagina" style="margin-top:-40px;">
-        <div class="container">
-            <div class="row">
-              <div class="col-md-12 redes text-center wow animated fadeIn slow">
-                    <h1 class="text-white">¡Seguinos  y demostranos tu apoyo!</h1>
-                    <a href="https://www.facebook.com/webideainfo/" target="_blank" title="Ir a nuestro Facebook" class="ml-2"><i class="fab fa-facebook fa-3x"></i></a>
-                    <a href="https://www.instagram.com/webideainfo/" target="_blank" title="Ir a nuestro Instragram" class="ml-2"><i class="fab fa-instagram fa-3x"></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center mt-5 text-white wow animated fadeIn slow">© Copyright <?php echo getYear(); ?> WEBIDEA -
-                    Diseño y Desarrollo Web La Plata - Buenos Aires - Argentina.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php
+      include 'pie-pagina.php';
+    ?>
 
 
     <div class="modal fade modal-envio" id="aviso-contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

@@ -11,13 +11,13 @@
                 <a class="nav-link" href="index"><img id="homeimg" src="img/home-white.png" style="vertical-align:sub;" height="25" alt=""> Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="servicios"><img id="nosotrosimg" src="img/nosotros-white.png" height="25" style="vertical-align:sub;" height="25" alt=""> Nosotros</a>
+                <a class="nav-link" href="nosotros"><img id="nosotrosimg" src="img/nosotros-white.png" height="25" style="vertical-align:sub;" height="25" alt=""> Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="servicios"><img id="serviciosimg" src="img/servicio-white.png" height="25" style="vertical-align:sub;" height="25" alt=""> Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="servicios"><img id="portfolioimg" src="img/portfolio-white.png" height="25" style="vertical-align:sub;" height="25" alt=""> Portfolio</a>
+                <a class="nav-link" href="portfolio"><img id="portfolioimg" src="img/portfolio-white.png" height="25" style="vertical-align:sub;" height="25" alt=""> Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contacto"><img id="contactoimg" src="img/contacto-white.png" height="25" style="vertical-align:sub;" height="25" alt=""> Contacto</a>

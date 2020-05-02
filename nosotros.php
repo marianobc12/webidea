@@ -29,10 +29,17 @@
     <div class="container-fluid cont-nosotros">
         <div class="row">
             <div class="col-8 offset-2 cont-presentacion text-center">
-                <h1 class="audiowide titulo mb-4">¿Quienes somos?</h1>
-                <h2 class="mont-200 text-white mb-4">Somos un grupo de desarrolladores listos para darte una solución digital, explicanos tu idea y trabajando a la par la hacemos una realidad</h2>
-                <button class="d-block m-auto btn-conocer-mas btn btn-lg">Conocer un poco más</button>
+                <h1 class="audiowide titulo mb-4 wow animated fadeInUp">¿Quienes somos?</h1>
+                <div class="wow animated fadeIn delay-1s">
+                    <h2 class="mont-200 text-white mb-4">Somos un grupo de desarrolladores listos para darte una solución digital, explicanos tu idea y trabajando a la par la hacemos una realidad</h2>
+                    <button class="d-block m-auto btn-conocer-mas btn btn-lg">Conocer un poco más</button>
+                </div>
             </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">dskdksdk</div>
         </div>
     </div>
     <script>

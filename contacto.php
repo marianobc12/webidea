@@ -30,39 +30,50 @@
       include 'menu.php';
     ?>
     <div class="container-fluid contenedor-contacto">
-      <div class="row">
-        <div class="col-8 animated fadeIn slower">
+      <div class="row" style="position:relative;z-index:0;">
+        <div class="col-12 animated fadeInRight" style="padding:0px;">
+          <img id="contenedor-imagen" src="img/webideacontacto.png" style="float:right;">
+          </div>
+        </div>
+      <div class="row" style="position:absolute; z-index:10; top:92px;margin-left:-75px;">
+        <div class="col-8 animated fadeIn slower" style="margin-left:-20px;">
           <h1 class="mt-5 titulo">¿Te interesa nuestros servicios?</h1>
           <h2 class="mont-200 subtitulo">Consultános y te enviamos un presupuesto</h2>
         </div>
-        <div class="col-md-8 animated fadeInLeft">
+        <div class="col-md-8 animated fadeInLeft" style="margin-left:40px;">
           <form  method="POST" id="form-cont" class="form-contacto" onsubmit="return enviar()">
             <div class="row">
-              <div class="col">
+              <div class="col-5">
                 <label for="nomApe">Nombre</label>
                 <input type="text" class="form-control" name="nomApe" id="nomApe" aria-label="Username" aria-describedby="basic-addon1" required="">
               </div>
-              <div class="col">
+              <div class="col-5">
               <label for="email">E-mail</label>
               <input type="email" class="form-control" name="email" id="email" aria-label="Username" aria-describedby="basic-addon1" required="">
               </div>
-            </div>
-            <div class="row mt-4">
-              <div class="col-6">
+              </div>  
+            <br>
+            <div class="row">
+              <div class="col-10">
               <label for="telefono">Teléfono</label>
               <input type="text" class="form-control" name="telefono" id="telefono"  aria-label="Username" aria-describedby="basic-addon1" required="">
               </div>
             </div>
+            <br>
+            <div class="row">
+            <div class="col-10">
             <div class="input-group mb-3 mt-4">
               <textarea name="consulta" placeholder="Escribe tu mensaje"  class="form-control" id="consulta" cols="30" rows="10" required=""></textarea>
             </div>
             <button type="submit" class="btn btn-lg btn-enviar">Enviar <i class="fab fa-telegram-plane"></i></button>
             <img src="img/loading.gif" style="display:none;" height="50" alt="">
+            </div>
+            </div>
           </form>
         </div>
       </div>
     </div>
-    <footer class="pie-pagina">
+    <footer class="pie-pagina" style="margin-top:-40px;">
         <div class="container">
             <div class="row">
               <div class="col-md-12 redes text-center wow animated fadeIn slow">

@@ -29,33 +29,36 @@
     <?php
       include 'menu.php';
     ?>
-    <div class="container contenedor-contacto">
+    <div class="container-fluid contenedor-contacto">
       <div class="row">
-        <div class="col-12 animated fadeIn slower">
-          <h1 class="text-center mt-5">¿Te interesa nuestros servicios?</h1>
-          <h2 class="text-center">Envianos tu consulta <i class="fas fa-thumbs-up"></i></h2>
+        <div class="col-8 animated fadeIn slower">
+          <h1 class="mt-5 titulo">¿Te interesa nuestros servicios?</h1>
+          <h2 class="mont-200 subtitulo">Consultános y te enviamos un presupuesto</h2>
         </div>
-        <div class="col-md-6 animated fadeInLeft">
-          <h3 class="mt-5"><i class="fas fa-signature"></i> Escribe tu consulta</h3>
+        <div class="col-md-8 animated fadeInLeft">
           <form  method="POST" id="form-cont" class="form-contacto" onsubmit="return enviar()">
-            <div class="input-group mb-3 mt-4">
-              <input type="text" class="form-control" name="nomApe" placeholder="Ingrese Nombre y Apellido" aria-label="Username" aria-describedby="basic-addon1" required="">
+            <div class="row">
+              <div class="col">
+                <label for="nomApe">Nombre</label>
+                <input type="text" class="form-control" name="nomApe" id="nomApe" aria-label="Username" aria-describedby="basic-addon1" required="">
+              </div>
+              <div class="col">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" name="email" id="email" aria-label="Username" aria-describedby="basic-addon1" required="">
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-6">
+              <label for="telefono">Teléfono</label>
+              <input type="text" class="form-control" name="telefono" id="telefono"  aria-label="Username" aria-describedby="basic-addon1" required="">
+              </div>
             </div>
             <div class="input-group mb-3 mt-4">
-              <input type="email" class="form-control" name="email" placeholder="Ingrese Email" aria-label="Username" aria-describedby="basic-addon1" required="">
-            </div>
-            <div class="input-group mb-3 mt-4">
-              <input type="text" class="form-control" name="telefono" placeholder="Ingrese Teléfono" aria-label="Username" aria-describedby="basic-addon1" required="">
-            </div>
-            <div class="input-group mb-3 mt-4">
-              <textarea name="consulta" placeholder="¿Cual es tu consulta?" class="form-control" id="consulta" cols="30" rows="10" required=""></textarea>
+              <textarea name="consulta" placeholder="Escribe tu mensaje"  class="form-control" id="consulta" cols="30" rows="10" required=""></textarea>
             </div>
             <button type="submit" class="btn btn-lg btn-enviar">Enviar <i class="fab fa-telegram-plane"></i></button>
+            <img src="img/loading.gif" style="display:none;" height="50" alt="">
           </form>
-        </div>
-        <div class="col-md-6 animated fadeInUp">
-          <h3 class="mt-5 mb-5"><i class="fas fa-info-circle"></i> Información de contacto</h3>
-          <h6 class="mt-4"><i class="fas fa-at fa-lg"></i> E-mail: webidealp@gmail.com</h6>
         </div>
       </div>
     </div>
@@ -87,14 +90,26 @@
           </button>
         </div>
         <div class="modal-body">
-          <h1 class="text-center"><i class="fas fa-check fa-2x"></i></h1>
-          <h4 class="text-center">¡Tu consulta fue enviada!</h4>
-          <p class="text-center">Responderemos tu consulta lo antes posible.</p>
-          <p class="text-right">Saludos Atte: WEBIDEA</p>
+          <h1 class="text-center animated jello infinite"><i class="fas fa-check fa-2x"></i></h1>
+          <h4 class="text-center mont-400">¡Tu consulta fue enviada!</h4>
+          <p class="text-center mont-200">Responderemos tu consulta lo antes posible.</p>
+          <img src="img/logo.png" class="d-block m-auto" height="30" alt="">
         </div>
       </div>
     </div>
   </div>
 
+  <script>
+     $(".navbar").css('background-color', 'white');
+     $(".navbar").css('transition', '1s');
+     $(".nav-link").css("color", "gray");
+     $("#logoimg").attr("src", "img/logo.png");
+     $("#homeimg").attr("src", "img/home-orange.png");
+     $("#nosotrosimg").attr("src", "img/nosotros-orange.png");
+     $("#serviciosimg").attr("src", "img/servicio-orange.png");
+     $("#portfolioimg").attr("src", "img/portfolio-orange.png");
+     $("#contactoimg").attr("src", "img/contacto-orange.png");
+     $('.navbar').css('box-shadow', '0px 2px 5px 0px rgba(0,0,0,0.47)');
+  </script>
 </body>
 </html>

@@ -97,9 +97,7 @@ body{
 
 /*background-image: linear-gradient(to right top, #ffb200, #ffa441, #ff9a62, #fc967d, #e99691);*/
 .contenedor-inicio{
-    background-image: url("../img/people2.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: linear-gradient(to right top, #ffb200, #ffa441, #ff9a62, #fc967d, #e99691);
     width:100%;
     padding-bottom: 40px;
 }

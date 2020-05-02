@@ -1,4 +1,4 @@
-<nav class="navbar  navbar-expand-lg navbar-light">
+<nav class="navbar  navbar-expand-lg navbar-light" style="z-index:1000;">
         <a class="navbar-brand" href="#">
           <img class="logo" id="logoimg" src="img/logo-white.png" width="150" height="40" class="d-inline-block align-top" alt="WEBIDEA">
         </a>

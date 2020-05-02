@@ -221,9 +221,14 @@ body{
 .contenedor-contacto{
     padding-top: 70px;
     padding-bottom: 40px;
-    background-image: url('../img/form-contacto2.png');
-    background-size: 100% 100%;
-    background-attachment: fixed;
+
+}
+.contenedor-imagen{
+    background-image: url('../img/webideacontacto.png');
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+    z-index:0;
+    
 }
 .contenedor-contacto .titulo{
     font-family: 'Russo One', sans-serif;

@@ -69,7 +69,6 @@
           </form>
         </div>
         <div class="col-md-6">
-          <!--style="/*filter: drop-shadow(1px 1px 4px black);*/" -->
           <img class="d-block m-auto wow animated fadeInRight img-fluid p-5"  src="img/contacto-compu2.png"  alt="">
         </div>
       </div>

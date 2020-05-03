@@ -35,7 +35,7 @@
                 <h2 class="text-center mb-5 subtitulo animated fadeIn slow delay-2s mont-200">Nos encargamos de hacer soluciones a medidas para cada uno de nuestros clientes.</h2>
                 <div class="row">
                     <div class="col-md-4 offset-md-2 animated fadeInLeft">
-                        <img class="img-fluid img-desarrollo" src="img/desarrollo-web.png">
+                        <img class="img-fluid img-desarrollo" style="filter: drop-shadow(0px 0px 2px black);" src="img/desarrollo-web.png">
                     </div>
                     <div class="col-md-4 contenedor-info animated fadeInRight">
                         <h2 class="text-center text-white mt-4">¡Empezá ya!</h2>

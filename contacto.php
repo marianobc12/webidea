@@ -35,28 +35,30 @@
           <h1 class="mt-5 titulo">¿Te interesa nuestros servicios?</h1>
           <h2 class="mont-200 subtitulo">Consultános y te enviamos un presupuesto</h2>
         </div>
-        <div class="col-md-8 animated fadeInLeft">
+      </div>
+      <div class="row">
+        <div class="col-md-6 animated fadeInLeft">
           <form  method="POST" id="form-cont" class="form-contacto" onsubmit="return enviar()">
             <div class="row">
-              <div class="col-5">
+              <div class="col">
                 <label for="nomApe">Nombre</label>
                 <input type="text" class="form-control" name="nomApe" id="nomApe" aria-label="Username" aria-describedby="basic-addon1" required="">
               </div>
-              <div class="col-5">
+              <div class="col">
               <label for="email">E-mail</label>
               <input type="email" class="form-control" name="email" id="email" aria-label="Username" aria-describedby="basic-addon1" required="">
               </div>
             </div>  
             <br>
             <div class="row">
-              <div class="col-10">
+              <div class="col">
                 <label for="telefono">Teléfono</label>
                 <input type="text" class="form-control" name="telefono" id="telefono"  aria-label="Username" aria-describedby="basic-addon1" required="">
               </div>
             </div>
             <br>
             <div class="row">
-              <div class="col-10">
+              <div class="col">
               <div class="input-group mb-3 mt-4">
                 <textarea name="consulta" placeholder="Escribe tu mensaje"  class="form-control" id="consulta" cols="30" rows="10" required=""></textarea>
               </div>
@@ -65,6 +67,9 @@
               </div>
             </div>
           </form>
+        </div>
+        <div class="col-md-6 mt-4">
+          <img class="d-block m-auto " src="img/contacto-compu.png" height="450" width="450" alt="">
         </div>
       </div>
     </div>

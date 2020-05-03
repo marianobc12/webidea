@@ -221,9 +221,6 @@ body{
 .contenedor-contacto{
     padding-top: 70px;
     padding-bottom: 40px;
-    background-image: url('../img/webideacontactooscura.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -233,12 +230,12 @@ body{
 .contenedor-contacto .titulo{
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
+    -webkit-text-stroke: 1px #ffa441;
     color: white;
     text-align: center;
 }
 .contenedor-contacto .subtitulo{
     text-align: center;
-    color: white;
 }
 .contenedor-contacto .btn-enviar{
     background: #ffa441;
@@ -246,10 +243,11 @@ body{
     box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.15);
 }
 .contenedor-contacto .form-contacto{
-    padding: 20px 60px;
+    padding-top:50px;
+   padding-left: 50px;
 }
 .contenedor-contacto .form-contacto label{
-    color:white;
+    color:gray;
 }
 .contenedor-contacto .form-contacto input{
     border-radius: 0px;

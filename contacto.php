@@ -31,7 +31,7 @@
     ?>
     <div class="container-fluid contenedor-contacto">
       <div class="row">
-        <div class="col-8 animated fadeIn slower">
+        <div class="col-12 animated fadeIn slower">
           <h1 class="mt-5 titulo">¿Te interesa nuestros servicios?</h1>
           <h2 class="mont-200 subtitulo">Consultános y te enviamos un presupuesto</h2>
         </div>
@@ -68,8 +68,9 @@
             </div>
           </form>
         </div>
-        <div class="col-md-6 mt-4">
-          <img class="d-block m-auto " src="img/contacto-compu.png" height="450" width="450" alt="">
+        <div class="col-md-6">
+          <!--style="/*filter: drop-shadow(1px 1px 4px black);*/" -->
+          <img class="d-block m-auto wow animated fadeInRight img-fluid p-5"  src="img/contacto-compu2.png"  alt="">
         </div>
       </div>
     </div>

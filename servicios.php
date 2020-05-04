@@ -40,26 +40,6 @@
                 <p class="text-center mt-3">Creamos sistemas de gestión a medida para manejar las políticas y los procedimientos de un negocio u organización de manera eficaz.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-center mt-5 titulo animated zoomIn">Forma de trabajo</h1>
-            </div>
-            <div class="col-md-4 mt-5 mb-5 animated fadeIn slower">
-                    <h2 class="text-center"><i class="fas fa-layer-group fa-3x"></i></h2>
-                    <h2 class="text-center mt-4">Analisis</h2>
-                    <p class="text-center mt-3">Nos encargamos de recolectar toda la información brindada por nuestros clientes, para poder realizar un análisis profundo del problema y encontrar un a solucion efectiva.</p>
-            </div>
-            <div class="col-md-4 mt-5 mb-5 animated fadeIn slower">
-                    <h2 class="text-center"><i class="fas fa-laptop-code fa-3x"></i></h2>
-                    <h2 class="text-center mt-4">Desarrollo</h2>
-                    <p class="text-center mt-3">En esta etapa se empieza el desarrollo de la solución, la cual podra ser visualizada de forma online y se seguirá en contacto en todo momento con el cliente atendiendo sus requerimientos.</p>
-            </div>
-            <div class="col-md-4 mt-5 mb-5 animated fadeIn slower">
-                    <h2 class="text-center"><i class="fas fa-handshake fa-3x"></i></h2>
-                    <h2 class="text-center mt-4">Finalización</h2>
-                    <p class="text-center mt-3">Se realizará un testeo de la solución desarrollada, para comprobar su correcto funcionamiento para luego finalizar con la entrega.</p>
-            </div>
-        </div>
     </div> 
 
 

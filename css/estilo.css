@@ -410,6 +410,58 @@ footer .redes a>i:hover{
       box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.30);
       animation: rubberBand 1s forwards;
   }
+
+  /* BOTON CONTACTO */
+  .chat{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background:white; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    z-index: 1;
+  }
+  .chat .usuario-chat{
+      padding: 20px;
+  }
+  .chat .cont-mensaje{
+      margin-top: 90px;
+  }
+  .chat .btn-cerrar{
+      background: transparent;
+      box-shadow: none;
+  }
+  .chat .cont-mensaje button{
+    display:block;
+    margin:auto;
+    background: #ffa441;
+    color: white;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.15);
+    border:1px solid #ffb200;
+  }
+  .chat .cont-mensaje button:hover{
+    background:#ffb200;
+    color: white;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.30);
+    animation: rubberBand 1s forwards;
+  }
+  .boton-contacto {
+    background: white;
+    padding: 15px;
+    /* border: 1px solid #b88c36; */
+    border: 1px solid #cd9836;
+    border-radius: 100%;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.boton-contacto:hover{
+    animation: jello 1s forwards;
+}
   
 
   

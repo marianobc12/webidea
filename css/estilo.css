@@ -424,7 +424,7 @@ footer .redes a>i:hover{
     z-index: 1;
   }
   .chat .usuario-chat{
-      padding: 20px;
+      padding: 5px;
   }
   .chat .cont-mensaje{
       margin-top: 90px;
@@ -432,6 +432,7 @@ footer .redes a>i:hover{
   .chat .btn-cerrar{
       background: transparent;
       box-shadow: none;
+      margin:5px
   }
   .chat .cont-mensaje button{
     display:block;

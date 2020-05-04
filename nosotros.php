@@ -16,6 +16,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script> <!-- ANIMACONES DE SCROLL -->
+    <script src="js/funciones.js"></script>
     <title>Nosotros - WEBIDEA</title>
 
     <script>
@@ -59,19 +60,23 @@
             </div>
         </div>
     </div>
-    <div class="chat">
-        <div class="col mt-2 mb-4">
-            <button class="float-right btn-cerrar btn"><i class="fas fa-chevron-left fa-lg"></i></button>
+    <div class="chat animated jello" style="display:none;">
+        <div class="row">
+            <div class="col-12">
+                <button onclick="cerrarChat()" class="float-right btn-cerrar btn"><i class="fas fa-chevron-left fa-lg"></i></button>
+            </div>
         </div>
-        <div class="col usuario-chat">
-            <img src="img/logo.png" class="d-block m-auto" height="30" width="100" alt="">
+        <div class="row">
+            <div class="col usuario-chat">
+                <img src="img/logo.png" class="d-block m-auto" height="30" width="100" alt="">
+            </div>
         </div>
         <div class="col cont-mensaje">
             <h4 class="text-center mont-200">¡Háblanos ahora!</h4>
             <button class="btn d-block m-auto">Enviar mensaje</button>
         </div>
     </div>
-    <a class="boton-contacto shadow" href="https://wa.me/525551532831" target="_blank"><img width="50" height="50" src="img/whatsapp.png" alt=""></a>
+    <a class="boton-contacto shadow" onclick="abrirChat()"  target="_blank"><img width="50" height="50" src="img/whatsapp.png" alt=""></a>
     <?php
         include 'pie-pagina.php';
     ?>

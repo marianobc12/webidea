@@ -33,15 +33,45 @@
                 <h1 class="audiowide titulo mb-4 wow animated fadeInUp">¿Quienes somos?</h1>
                 <div class="wow animated fadeIn delay-1s">
                     <h2 class="mont-200 text-white mb-4">Somos un grupo de desarrolladores listos para darte una solución digital, explicanos tu idea y trabajando a la par la hacemos una realidad</h2>
-                    <button class="d-block m-auto btn-conocer-mas btn btn-lg">Conocer un poco más</button>
+                    <button onclick="window.location='#info'" class="d-block m-auto btn-conocer-mas btn btn-lg">Conocer un poco más</button>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="info">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center mont-200 wow animated fadeInUp slow" style="margin-top:100px;margin-bottom:50px;">Hacemos de tu idea una realiadad...</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <img src="img/cohete-mp4 Comp- 1.gif" style="opacity:0.9;" class="d-block m-auto wow animated fadeInLeft" alt="">
+            </div>
+            <div class="col">
+                <h4 class="mont-200 text-center wow animated fadeIn slow">
+                    Nos centramos en entender y comprender tu idea para poder plasmarla correctamente en nuestro producto final.
+                </h4>
+                <hr style="background:#ffb200;">
+                <h4 class="mont-200 text-center wow animated fadeIn slow delay-1s">
+                    Nuestras areas principales son:
+                </h4>
+                <h4 class="mont-200 mt-4 text-center wow animated fadeIn slow delay-1s" style="font-style:italic;">
+                    <img style="vertical-align:sub;" src="img/nosotros-dev.png" height="35" alt=""> Desarrollo Web
+                </h4>
+                <h4 class="mont-200 mt-4 text-center wow animated fadeIn slow delay-1s" style="font-style:italic;">
+                <img style="vertical-align:sub;" src="img/nosotros-dis.png" height="35" alt=""> Diseño
+                </h4>
+                <h4 class="mont-200 mt-4 text-center wow animated fadeIn slow delay-1s" style="font-style:italic;">
+                <img style="vertical-align:sub;" src="img/nosotros-mar.png" height="35" alt=""> Marketing
+                </h4>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center mt-5 titulo animated zoomIn mont-200">Forma de trabajo</h1>
+                <h1 class="text-center mt-5 titulo wow animated zoomIn mont-200">Forma de trabajo</h1>
             </div>
             <div class="col-md-4 mt-5 mb-5 animated fadeIn slower">
                     <img src="img/idea.png" height="100" width="100" class="d-block m-auto" alt="">

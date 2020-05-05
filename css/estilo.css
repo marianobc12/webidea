@@ -285,7 +285,6 @@ body{
     animation: rubberBand 1s forwards;
     background: white;
     color: gray;
-    animation: ;
     border: 1px solid #ff9a62;
     box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.30);
 }
@@ -466,3 +465,7 @@ footer .redes a>i:hover{
   
 
   
+/* video */
+.video-nosotros:focus{
+    outline: none;
+}

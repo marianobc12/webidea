@@ -46,7 +46,10 @@
         </div>
         <div class="row mt-5">
             <div class="col">
-                <img src="img/cohete-mp4 Comp- 1.gif" style="opacity:0.9;" class="d-block m-auto wow animated fadeInLeft" alt="">
+                <img src="img/cohete-mp4 Comp- 1.gif" style="opacity:0.9;" class="d-none m-auto wow animated fadeInLeft" alt="">
+                <video height="100%"  class="video-nosotros" controls autoplay>
+                    <source src="img/videoWebidea.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="col">
                 <h4 class="mont-200 text-center wow animated fadeIn slow">

@@ -16,6 +16,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script> <!-- ANIMACONES DE SCROLL -->
+    <link  rel="icon"   href="img/icon.png" type="image/png" />
     <title>Portfolio - WEBIDEA</title>
 
     <script>

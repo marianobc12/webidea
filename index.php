@@ -18,6 +18,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script> <!-- ANIMACONES DE SCROLL -->
     <script src="js/swiper.min.js"></script><!-- SLIDER -->
+    <link  rel="icon"   href="img/icon.png" type="image/png" />
     <title>Inicio - WEBIDEA</title>
 
     <script>

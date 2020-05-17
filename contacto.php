@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- BOOTSTRAP 4 -->
     <link rel="stylesheet" href="css/estilo.css"> <!-- ESTILO CSS DE LA WEB -->
     <link rel="stylesheet" href="css/animate.css"> <!-- ANIMACIONES -->
+    <link  rel="icon"   href="img/icon.png" type="image/png" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script> <!-- ANIMACONES DE SCROLL -->

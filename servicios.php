@@ -15,6 +15,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script> <!-- ANIMACONES DE SCROLL -->
+    <link  rel="icon"   href="img/icon.png" type="image/png" />
     <title>Servicios - WEBIDEA</title>
     <script>
         new WOW().init();
@@ -44,23 +45,11 @@
 
 
 
-    <footer class="pie-pagina">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 redes text-center wow animated fadeIn slow">
-                    <h1 class="text-white">¡Seguinos  y demostranos tu apoyo!</h1>
-                    <a href="https://www.facebook.com/webideainfo/" target="_blank" title="Ir a nuestro Facebook" class="ml-2"><i class="fab fa-facebook fa-3x"></i></a>
-                    <a href="https://www.instagram.com/webideainfo/" target="_blank" title="Ir a nuestro Instragram" class="ml-2"><i class="fab fa-instagram fa-3x"></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center mt-5 text-white wow animated fadeIn slow">© Copyright <?php echo getYear(); ?> WEBIDEA -
-                    Diseño y Desarrollo Web La Plata - Buenos Aires - Argentina.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <a class="boton-contacto shadow" onclick="abrirChat()"  target="_blank"><img width="50" height="50" src="img/whatsapp.png" alt=""></a>
+
+    <?php
+      include 'pie-pagina.php';
+    ?>
     <script>
      $(".navbar").css('background-color', 'white');
      $(".navbar").css('transition', '1s');

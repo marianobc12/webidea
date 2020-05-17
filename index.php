@@ -131,6 +131,8 @@
     		</div>
         </div>
     </div>
+
+    <a class="boton-contacto shadow" onclick="abrirChat()"  target="_blank"><img width="50" height="50" src="img/whatsapp.png" alt=""></a>
     <?php
         include 'pie-pagina.php';
     ?>

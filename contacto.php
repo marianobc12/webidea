@@ -75,6 +75,8 @@
       </div>
     </div>
     <hr>
+
+    <a class="boton-contacto shadow" onclick="abrirChat()"  target="_blank"><img width="50" height="50" src="img/whatsapp.png" alt=""></a>
     <?php
       include 'pie-pagina.php';
     ?>
@@ -98,6 +100,7 @@
     </div>
   </div>
 
+  
   <script>
      $(".navbar").css('background-color', 'white');
      $(".navbar").css('transition', '1s');

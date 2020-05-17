@@ -33,7 +33,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center mt-5 titulo animated zoomIn">¡WEBIDEA , desarrolla tu página!</h1>
+                <h1 class="text-center titulo animated zoomIn">¡WEBIDEA , desarrolla tu página!</h1>
                 <h2 class="text-center mb-5 subtitulo animated fadeIn slow delay-2s mont-200">Nos encargamos de hacer soluciones a medidas para cada uno de nuestros clientes.</h2>
                 <div class="row">
                     <div class="col-md-4 offset-md-2 animated fadeInLeft">

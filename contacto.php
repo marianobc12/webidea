@@ -73,7 +73,7 @@
         </div>
       </div>
     </div>
-    <img src="img/otraseccion.svg" style="filter: drop-shadow(5px 5px 4px #4444dd);" alt="">
+    <hr>
     <?php
       include 'pie-pagina.php';
     ?>

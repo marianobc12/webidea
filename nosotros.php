@@ -41,7 +41,7 @@
     <div class="container-fluid" id="info">
         <div class="row">
             <div class="col">
-                <h1 class="text-center mont-200 wow animated fadeInUp slow" style="margin-top:100px;margin-bottom:50px;">Hacemos de tu idea una realiadad...</h1>
+                <h1 class="text-center mont-200 wow animated fadeInUp slow" style="margin-top:150px;margin-bottom:50px;">Hacemos de tu idea una realiadad...</h1>
             </div>
         </div>
         <div class="row mt-5">

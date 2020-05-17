@@ -1,12 +1,12 @@
-<nav class="navbar  navbar-expand-lg navbar-light" style="z-index:1000;">
-        <a class="navbar-brand" href="#">
-          <img class="logo" id="logoimg" src="img/logo-white.png" width="150" height="40" class="d-inline-block align-top" alt="WEBIDEA">
+<nav class="navbar  navbar-expand-lg navbar-light animated fadeIn" style="z-index:1000;">
+        <a class="navbar-brand" href="index.php">
+          <img class="logo" id="logoimg" src="img/logo-white.png" width="200" height="50" class="d-inline-block align-top" alt="WEBIDEA">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link" href="index"><img id="homeimg" src="img/home-white.png" style="vertical-align:sub;" height="25" alt=""> Inicio</a>
               </li>

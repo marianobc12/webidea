@@ -15,7 +15,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script> <!-- ANIMACONES DE SCROLL -->
-    <title>Servicios - Desarrollo Web</title>
+    <title>Servicios - WEBIDEA</title>
     <script>
         new WOW().init();
     </script>

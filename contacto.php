@@ -76,6 +76,22 @@
     </div>
     <hr>
 
+    <div class="chat animated jello" style="display:none;">
+        <div class="row">
+            <div class="col-12">
+                <button onclick="cerrarChat()" class="float-right btn-cerrar btn"><i class="fas fa-chevron-left fa-lg"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col usuario-chat">
+                <img src="img/logo.png" class="d-block m-auto" height="30" width="100" alt="">
+            </div>
+        </div>
+        <div class="col cont-mensaje">
+            <h4 class="text-center mont-200">¡Háblanos ahora!</h4>
+            <button class="btn d-block m-auto">Enviar mensaje</button>
+        </div>
+    </div>
     <a class="boton-contacto shadow" onclick="abrirChat()"  target="_blank"><img width="50" height="50" src="img/whatsapp.png" alt=""></a>
     <?php
       include 'pie-pagina.php';

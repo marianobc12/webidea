@@ -11,11 +11,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/all.css"> <!-- ICONOS FONT-AWESOME -->
     <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="css/swiper.min.css"><!-- SLIDER -->
     <link rel="stylesheet" href="css/estilo.css"> <!-- ESTILO CSS DE LA WEB -->
     <link rel="stylesheet" href="css/animate.css"> <!-- ANIMACIONES -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script> <!-- ANIMACONES DE SCROLL -->
+    <script src="js/swiper.min.js"></script><!-- SLIDER -->
     <title>Inicio - WEBIDEA</title>
 
     <script>
@@ -78,44 +80,26 @@
         </div>
     </div>
     <div class="container-fluid contenedor-trabajos">
-        <div class="row mb-5">
+        <div class="row mb-2">
             <div class="col-md-12 wow animated fadeInUp slow">
                 <h1 class="text-center mt-2 mb-4 titulo">Algunos de nuestros trabajos</h1>
             </div>
         </div>
-        <div class="row trabajos" style="margin:0px;">
-            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" onclick="location.href='img/trabajo1.png'">
-                <img src="img/trabajo1.png" class="img-fluid" alt="">
+        <div class="swiper-container wow animated fadeInUp slow">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(img/trabajo1.png);width:650px;height:400px;"></div>
+                <div class="swiper-slide" style="background-image:url(img/trabajo2.png);width:650px;height:400px;"></div>
+                <div class="swiper-slide" style="background-image:url(img/trabajo3.png);width:650px;height:400px;"></div>
+                <div class="swiper-slide" style="background-image:url(img/trabajo4.png);width:650px;height:400px;"></div>
+                <div class="swiper-slide" style="background-image:url(img/trabajo1.png);width:650px;height:400px;"></div>
+                <div class="swiper-slide" style="background-image:url(img/trabajo2.png);width:650px;height:400px;"></div>
+                <div class="swiper-slide" style="background-image:url(img/trabajo3.png);width:650px;height:400px;"></div>
+                <div class="swiper-slide" style="background-image:url(img/trabajo4.png);width:650px;height:400px;"></div>
             </div>
-            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="0.5s" onclick="location.href='img/trabajo2.png'">
-                <img src="img/trabajo2.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="1s"   onclick="location.href='img/trabajo3.png'">
-                <img src="img/trabajo3.png" class="img-fluid" alt="">
-            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="row trabajos" style="margin:0px;">
-            <div class="col-lg-4 wow zoomIn " data-wow-duration="1.5s" onclick="location.href='img/trabajo1.png'">
-                <img src="img/trabajo1.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="0.5s" onclick="location.href='img/trabajo2.png'">
-                <img src="img/trabajo2.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="1s"   onclick="location.href='img/trabajo3.png'">
-                <img src="img/trabajo3.png" class="img-fluid" alt="">
-            </div>
-        </div>
-        <div class="row trabajos" style="margin:0px;">
-            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" onclick="location.href='img/trabajo1.png'">
-                <img src="img/trabajo1.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="0.5s" onclick="location.href='img/trabajo2.png'">
-                <img src="img/trabajo2.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-4 wow zoomIn trabajo" data-wow-duration="1.5s" data-wow-delay="1s"   onclick="location.href='img/trabajo3.png'">
-                <img src="img/trabajo3.png" class="img-fluid" alt="">
-            </div>
-        </div>
+    
     </div>
     <div class="container-fluid cont-opiniones">
         <h1 class="text-center titulo">Cada vez más personas confian en nosotros</h1>
@@ -149,6 +133,25 @@
     <?php
         include 'pie-pagina.php';
     ?>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
 
     <script>
        $(document).ready(function(){       
